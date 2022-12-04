@@ -44,7 +44,7 @@ def Home():
     exit()
 # Function used in booking
 def date(c):
-  if c[2] >= 2020 and c[2] <= 2021:
+  if c[2] >= 2020 and c[2] <= 2023:
     if c[1] != 0 and c[1] <= 12:
       if c[1] == 2 and c[0] != 0 and c[0] <= 31:
         if c[2]%4 == 0 and c[0] <= 29:
@@ -289,9 +289,9 @@ def restaurant():
         print("-------------------------------------------------------------------------")
         print(" Menu Card")
         print("-------------------------------------------------------------------------")
-        print("\n BEVARAGES 26 Dal Fry................ 140.00")
+        print("\n BEVARAGES                       26 Dal Fry................ 140.00")
         print("---------------------------------- 27 Dal Makhani............ 150.00")
-        print(" 1 Regular Tea............. 20.00 28 Dal Tadka.............. 150.00")
+        print(" 1 Regular Tea............. 20.00  28 Dal Tadka.............. 150.00")
         print(" 2 Masala Tea.............. 25.00")
         print(" 3 Coffee.................. 25.00 ROTI")
         print(" 4 Cold Drink.............. 25.00 ----------------------------------")
@@ -301,16 +301,16 @@ def restaurant():
         print(" 8 Veg. Toast Sandwich..... 50.00 32 Butter Naan............. 20.00")
         print(" 9 Cheese Toast Sandwich... 70.00")
         print(" 10 Grilled Sandwich........ 70.00 RICE")
-        print(" ----------------------------------")
-        print(" SOUPS 33 Plain Rice.............. 90.00")
+        print("                                   ----------------------------------")
+        print(" SOUPS                             33 Plain Rice.............. 90.00")
         print("---------------------------------- 34 Jeera Rice.............. 90.00")
         print(" 11 Tomato Soup............ 110.00 35 Veg Pulao.............. 110.00")
         print(" 12 Hot & Sour............. 110.00 36 Peas Pulao............. 110.00")
         print(" 13 Veg. Noodle Soup....... 110.00")
         print(" 14 Sweet Corn............. 110.00 SOUTHINDIAN")
         print(" 15 Veg. Munchow........... 110.00 ----------------------------------")
-        print(" 37 Plain Dosa............. 100.00")
-        print(" MAIN COURSE 38 Onion Dosa............. 110.00")
+        print("                                   37 Plain Dosa............. 100.00")
+        print(" MAIN COURSE                       38 Onion Dosa............. 110.00")
         print("---------------------------------- 39 Masala Dosa............ 130.00")
         print(" 16 Shahi Paneer........... 110.00 40 Paneer Dosa............ 130.00")
         print(" 17 Kadai Paneer........... 110.00 41 Rice Idli.............. 130.00")
